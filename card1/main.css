@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrap{
+    width: 800px;
+    height: 350px;
+    box-sizing: border-box;
+    border: 2px solid black;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    margin-top: 20px;
+    width: 200px;
+    height: 250px;
+
+    box-sizing: border-box;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.round{
+    width: 70px;
+    height: 70px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 50%;
+
+    position: absolute;
+    left: 65px;
+    top: -35px;
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-ethereum{
+    color: #04c904;
+    font-size: 45px;
+}
+
+p{
+    margin: 45px 3px 5px 5px;
+    display: block;
+    text-align: center;
+}
+
+.learn{
+   box-sizing: border-box;
+    border: 2px solid black;
+
+    width: 120px;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.learn>p{
+    margin: 0;
+    color: #04C904FF;
+    text-align: center;
+
+}
+
